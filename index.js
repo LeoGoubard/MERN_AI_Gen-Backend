@@ -8,7 +8,7 @@ import postRoutes from './routes/postRoutes.js'
 import dalleRoutes from './routes/dalleRoutes.js';
 
 
-dotenv.config();
+dotenv.config({path: "./vars/.env"})
 
 const app = express();
 app.use(cors());

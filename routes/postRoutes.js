@@ -5,7 +5,7 @@ import { v2 as cloudinary } from 'cloudinary';
 
 import Post from '../mongodb/models/post.js';
 
-dotenv.config();
+dotenv.config({path: "./vars/.env"})
 
 const router = express.Router();
 
