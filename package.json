@@ -7,6 +7,9 @@
   "scripts": {
     "start": "nodemon index"
   },
+  "engines" : { 
+    "node" : ">=14.x" 
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LeoGoubard/MERN_AI_Gen-Backend.git"
